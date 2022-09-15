@@ -1,0 +1,54 @@
+:root{
+	/*--Colors--*/
+	--main-background: #FFF4EB;
+	--border-color: #E16214;
+	--card-color: #A94A0F;
+	--font-color: #350824;
+}
+
+*, html{
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+	background-color: var(--main-background);
+	color: var(--font-color);
+	font-family: sans-serif;
+}
+
+.flashcard{
+	border: 1px solid var(--border-color);
+	border-radius: 3px;
+	width: 275px;
+	height: 175px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 50px 31px;
+	font-size: 1.75rem;
+	font-weight: lighter;
+	text-align: center;
+	cursor: pointer;
+}
+
+.card-grid{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 70px;
+}
+
+.flashcard_header{
+	text-align: center;
+}
+
+.flascard_footer{
+	text-align: center;
+}
+
+.flashcard_link{
+	text-decoration: none;
+}
+
+.flashcard_link:hover{
+	text-decoration: underline;
+}
