@@ -1,6 +1,5 @@
 #  Flashcards
 Flashcard to learn command line built with React
-Projects from [Learn JavaScript](https://scrimba.com/learn/learnjavascript) course from [Scrimba](https://scrimba.com)
 
 ![My Image](image.png)
 
