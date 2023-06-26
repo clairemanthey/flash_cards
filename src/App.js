@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 
 
 function App() {
-  const[flashcards, setFlashcards] = useState(SAMPLE_FLASHCARDS)
+  const[flashcards] = useState(SAMPLE_FLASHCARDS)
   return (
     <div className="App">
       <Header />
